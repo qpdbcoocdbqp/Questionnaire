@@ -1,0 +1,12 @@
+[project]
+name = "survey-ai-agent"
+version = "0.1.0"
+description = "智能問卷系統，能夠設計問卷、透過對話收集答案，並將結果自動寫入 Google Sheet"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk>=1.17.0",
+    "google-generativeai>=0.8.5",
+    "python-dotenv>=1.2.1",
+    "google-cloud-storage>=2.18.0",
+]
